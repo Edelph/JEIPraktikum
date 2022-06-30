@@ -1,0 +1,39 @@
+.footer{
+    background: #004F4F;
+    color: #a7a7a7;
+    height: 150px;
+}
+
+.footer_container{
+    display: flex;
+    padding: 10px 50px;
+}
+
+.footer_content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_content ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer_content li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact_list li{
+    margin: 0 5px;
+}

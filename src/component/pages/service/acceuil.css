@@ -1,0 +1,26 @@
+.service_acceuil_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.service_acceuil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+.service_acceuil>h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.service_acceuil>p{
+    font-size: 1rem;
+}

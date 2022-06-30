@@ -1,0 +1,19 @@
+:root{
+    --width-image : 300px;
+}
+
+.slider{
+    height: var(--width-image);
+    width: 100%;
+}
+
+.img_item{
+    height: var(--width-image);
+}
+
+.image_sponsor{
+    display: flex;
+    width: 90%;
+    height: var(--width-image);
+    margin: auto;
+}

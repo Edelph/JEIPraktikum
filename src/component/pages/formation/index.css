@@ -1,0 +1,34 @@
+.formation_header_background{
+    height: 100vh;
+    background-image: url("../../../assets/images/mars-sector-6-WECV64BvS3M-unsplash.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emploi_section{
+    background-color: #240000;
+}
+
+.cards_container_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.card_offre_container{
+    height: 80vh;
+    width: 30vw;
+}
+
+.card_offre_container>img{
+    width: 100%;
+    height: 200px;
+}
+

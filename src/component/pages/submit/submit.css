@@ -1,0 +1,54 @@
+.content_center{
+    background-color: #00BABA;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #07033f50;
+    padding: 0px;
+    width: 100%;
+}
+
+.content_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    background-color: #FBFBFBFB;
+}
+
+.personnal_information_container{
+    color: var(--text-color);
+}
+.project_information_container{
+    color: var(--text-color);
+}
+
+.arrow{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+} 
+
+
+.submit-button{
+    font-weight: bold;
+    background-color: #FBFBFB;
+    color: #00BABA;
+    padding: 5px 0px;
+    border: 1px solid #00BABA;
+    border-radius: 5px;
+    
+}
+
+.submit-button:hover{
+    background-color: #00BABA;
+    padding: 6px 0px;
+    color: #FBFBFB;
+    border: none;
+}
+

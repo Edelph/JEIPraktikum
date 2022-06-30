@@ -1,0 +1,40 @@
+.section{
+    background-color: #00BABA;
+    color: var(--text-color);
+}
+
+.editor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.textEditor{
+    background-color: #FBFBFB;
+    height: 75vh !important;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.detail-button{
+    font-weight: bold;
+    background-color: #FBFBFB;
+    color: #00BABA;
+    padding: 5px 10px;
+    border: 1px solid #00BABA;
+    border-radius: 5px;
+    
+}
+
+.detail-button:hover{
+    background-color: #00BABA;
+    color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+}

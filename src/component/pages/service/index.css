@@ -1,0 +1,8 @@
+.acceuil_service_container{
+    background-image: url("../../../assets/images/image13.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    z-index: 2;
+
+}

@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "biscuit",
+      "price": 3500
+    },
+    {
+      "id": 2,
+      "name": "bonbon",
+      "price": 100
+    },
+    {
+      "id": 3,
+      "name": "jus en bouteille",
+      "price": 3000
+    },
+    {
+      "name": "pain",
+      "price": "1000",
+      "id": 4
+    }
+  ]
+}
