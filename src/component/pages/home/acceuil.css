@@ -1,147 +1,53 @@
-header .item {
-    height: 100vh;
-    position: relative;
-  }
-  header .item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  header .item .cover {
-    padding: 75px 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-  }
-  header .item .cover .header-content {
-    position: relative;
-    padding: 56px;
-    overflow: hidden;
-  }
-  header .item .cover .header-content .line {
-    content: "";
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    border: 9px solid #fff;
-    -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
-    clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
-  }
-  header .item .cover .header-content h2 {
-    font-weight: 300;
-    font-size: 35px;
-    color: #fff;
-  }
-  header .item .cover .header-content h1 {
-    font-size: 56px;
-    font-weight: 600;
-    margin: 5px 0 20px;
-    word-spacing: 3px;
-    color: #fff;
-  }
-  header .item .cover .header-content h4 {
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 36px;
-    color: #fff;
-  }
-  header .owl-item.active h1 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    animation-name: fadeInDown;
-    animation-delay: 0.3s;
-  }
-  header .owl-item.active h2 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    animation-name: fadeInDown;
-    animation-delay: 0.3s;
-  }
-  header .owl-item.active h4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    animation-name: fadeInUp;
-    animation-delay: 0.3s;
-  }
-  header .owl-item.active .line {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    animation-name: fadeInLeft;
-    animation-delay: 0.3s;
-  }
-  header .owl-nav .owl-prev {
-    position: absolute;
-    left: 15px;
-    top: 43%;
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
-    background: rgba(0, 0, 0, 0.5) !important;
-    width: 40px;
-    cursor: pointer;
-    height: 40px;
-    position: absolute;
-    display: block;
-    z-index: 1000;
-    border-radius: 0;
-  }
-  header .owl-nav .owl-prev span {
-    font-size: 1.6875rem;
-    color: #fff;
-  }
-  header .owl-nav .owl-prev:focus {
-    outline: 0;
-  }
-  header .owl-nav .owl-prev:hover {
-    background: #000 !important;
-  }
-  header .owl-nav .owl-next {
-    position: absolute;
-    right: 15px;
-    top: 43%;
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
-    background: rgba(0, 0, 0, 0.5) !important;
-    width: 40px;
-    cursor: pointer;
-    height: 40px;
-    position: absolute;
-    display: block;
-    z-index: 1000;
-    border-radius: 0;
-  }
-  header .owl-nav .owl-next span {
-    font-size: 1.6875rem;
-    color: #fff;
-  }
-  header .owl-nav .owl-next:focus {
-    outline: 0;
-  }
-  header .owl-nav .owl-next:hover {
-    background: #000 !important;
-  }
-  header:hover .owl-prev {
-    left: 0px;
-    opacity: 1;
-  }
-  header:hover .owl-next {
-    right: 0px;
-    opacity: 1;
-  }
+.acceuil{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0,.5);
+}
+.acceuil header{
+  text-align: center;
+}
+.acceuil h2{
+  font-size: 3.5rem;
+}
+.acceuil p:nth-child(3){
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.acceuil p:nth-child(3) span{
+  color: #a52a2a;
+}
+.acceuil .demarer-projet{
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: .5rem 1rem;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: .6s all;
+}
+
+.acceuil .demarer-projet:hover{
+  background-color: #a52a2a;
+  border-color: #a52a2a;
+
+}
+.acceuil p:last-child{
+  position: absolute;
+  bottom: 2rem;
+  padding-left: 2.1rem;
+  justify-self: center;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.acceuil p:last-child img{
+  position: relative;
+  top: 1.5rem;
+  left: -3.9rem;
+
+}
+

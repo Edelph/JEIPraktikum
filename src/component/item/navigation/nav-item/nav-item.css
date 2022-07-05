@@ -1,0 +1,29 @@
+.nav-item-menu{
+    position: relative;
+    color: #FBFBFB;
+    overflow: visible;
+}
+.link{
+    padding: .5rem .6rem;
+    overflow-x: visible;
+    cursor: pointer;
+}
+.nav-item-menu:hover .nav-item-sous-menu{
+    display: block;
+}
+.nav-item-menu .nav-item-sous-menu{
+    position: absolute;
+    transition: .5s all;
+    left: -3rem;
+    display: none;
+    width: max-content;
+
+}
+.nav-item-sous-menu a{
+    color: #FBFBFB;
+    text-align: center;
+    padding: .2rem 0;
+}
+.nav-item-sous-menu a:hover{
+    border-bottom: 2px solid #333;
+}

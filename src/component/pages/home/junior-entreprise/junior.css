@@ -1,0 +1,34 @@
+.junior-container{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+.junior-container div >h1{
+    font-size: 1.5rem;
+    border-bottom: 2px solid #cccccc;
+
+} 
+.junior-container .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.junior-container >div>p{
+    box-shadow: -2px 2px 15px #cecece;
+    min-width: 450px;
+    margin-top: 1rem;
+    min-height: 150px;
+    padding: 1.5rem 2rem;
+    margin-right: -8em;
+    z-index: 1;
+    background-color: #fff;
+}
+.junior-container >div>img{
+    box-shadow: -2px 2px 15px #cecece;
+    min-height: 300px;
+    min-width: 400px;
+    
+}

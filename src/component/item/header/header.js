@@ -22,7 +22,7 @@ const Header = ({ animated }) => {
 
   var color;
   if (animated) {
-    if (height - scrollPosition < 300) {
+    if (height - scrollPosition < 500) {
       color = "header_animated";
     }
   } else {

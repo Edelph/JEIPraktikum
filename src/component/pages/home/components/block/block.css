@@ -1,0 +1,27 @@
+.block{
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+.block-title{
+    color: #000;
+    width: 600px;
+    margin: 2rem 0;
+    font-size: 25px;
+    border-bottom: 2px solid #a7a7a7;
+}
+.block-title::first-letter{
+    text-transform: capitalize;
+}
+.block-title span:first-child{
+    color: #BF1A53;
+}
+
+.block-title span:last-child{
+    font-size: 11px;
+    float: right;
+    margin-top: 1rem;
+}

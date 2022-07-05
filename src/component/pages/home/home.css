@@ -6,7 +6,7 @@ section{
 
 .acceuil_bg{
     background-image: url("../../../assets/images/row-of-young-adults-at-work.jpg");
-    background-position: center; /* Center the image */
+    background-position: top; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
     z-index: 2;
